@@ -6,12 +6,12 @@
   "homepage": "https://ChauDinh.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
   },
   "author": "Chau Dinh",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.2"
   }
 }
